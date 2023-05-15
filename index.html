@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript Password Validation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="password-field">
+        <input type="password" placeholder="Create Password">
+        <img class="eye-icon" src="icons/eye-solid.svg">
+      </div>
+
+      <div class="content">
+        <br>
+        <p>Password must contain:</p>
+        <ul class="requirements">
+          <li>
+            <img class="circle-icon" src="icons/circle-solid.svg">
+            <span>At least 8 characters</span>
+          </li>
+
+          <li>
+            <img class="circle-icon" src="icons/circle-solid.svg">
+            <span>At least one lowercase letter (a...z)</span>
+          </li>
+
+          <li>
+            <img class="circle-icon" src="icons/circle-solid.svg">
+            <span>At least one uppercase letter (A...Z)</span>
+          </li>
+
+          <li>
+            <img class="circle-icon" src="icons/circle-solid.svg">
+            <span>At least one special character (!...%)</span>
+          </li>
+
+          <li>
+            <img class="circle-icon" src="icons/circle-solid.svg">
+            <span>At least one number (0...9)</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script defer src="scripts/index.js"></script>
+  </body>
+</html>
